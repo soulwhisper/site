@@ -1,0 +1,11 @@
+name        = "PrimeNoir"
+license     = "CC BY-NC-SA 4.0"
+licenselink = "https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode"
+description = "A custom theme created by soulwhisper, whose nickname is HecateNoir."
+tags        = ["blog", "personal"]
+features    = ["full image carousel", "hierachical toc", "google analysis", "recent posts", "sort", "tag cloud", "keywords", "RSS", "Disqus"]
+min_version = 0.46
+
+[author]
+  name      = "Xiao Yang"
+  homepage  = "https://github.com/soulwhisper"

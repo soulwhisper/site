@@ -1,0 +1,18 @@
+diff layouts1 layouts2
+combine features
+make finall
+======
+merge features from layouts2 (look up readme) to layouts
+then simplify
+======
+archetypes --done
+data(theme data folder) --done
+layouts
+static --need test
+
+======
+content-struct
+-Tech(Blog)
+-Life(Blog)--Thoughts/Critique/Travel/Moment
+-Gallery(Photos)
+-About(Resume)
