@@ -25,7 +25,7 @@ jobs:
           hugo-version: 'latest'
 
       - name: Build
-        run: hugo new site
+        run: hugo new site "blog"
         
       - name: Prepare tag
         id: prepare_tag
