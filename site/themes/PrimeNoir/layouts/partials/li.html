@@ -1,0 +1,8 @@
+<li class="post-item">
+    {{ if .Site.Params.dateform }}
+    <span class="meta"><time datetime='{{ .Date.Format "2019-07-01T00:00:00Z08:00" }}'>{{ .Date.Format .Site.Params.dateform }}</time></span>
+    {{ else }}
+    <span class="meta"><time datetime='{{ .Date.Format "2019-07-01T00:00:00Z08:00" }}'>{{ .Date.Format "Jul 1, 2019" }}</time></span>
+    {{ end }}
+    <a href="{{ .Permalink }}"><span>{{ .Title }}</span></a>
+</li>
