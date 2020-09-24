@@ -1,0 +1,96 @@
+baseURL = "https://NoirPrime.com/"
+theme = "PrimeNoir"
+title = "NoirPrime"
+
+
+builddrafts                = false
+languageCode               = "zn-Hans"
+canonifyurls               = true
+contentdir                 = "content"
+layoutdir                  = "layouts"
+publishdir                 = "public"
+enableEmoji                = true
+hasCJKLanguage             = true
+summaryLength              = 200
+Paginate                   = 3
+
+
+
+pygmentsuseclasses         = true
+
+
+[permalinks]
+  Tech                     = "blog/tech/:slug/"
+  Life                     = "blog/life/:slug/"
+  Gallery                  = "gallery/:slug/"
+
+
+[taxonomies]
+  tag                      = "tags"
+  series                   = "series"
+  category                 = "categories"
+
+
+[menu]
+  [[menu.main]]
+    name                   = "Tech"
+    weight                 = -130
+    identifier             = "tech"
+    url                    = "blog/tech/"
+
+  [[menu.main]]
+    name                   = "Life"
+    weight                 = -120
+    identifier             = "life"
+    url                    = "blog/life/"
+
+  [[menu.main]]
+    name                   = "Gallery"
+    weight                 = -110
+    identifier             = "gallery"
+    url                    = "gallery/"
+
+  [[menu.main]]
+    name                   = "About"
+    weight                 = -100
+    identifier             = "about"
+    url                    = "about/"
+
+
+[params]
+  faviconfile              = ""               # from static/
+  avatar                   = "img/profile.jpg"             # path to image in static dir e.g img/avatar.png
+  author                   = "Soulwhisper"
+  description              = ["Knowledge is Power.", "", ""]           # appears in the site header when set to a non-empty string
+  welcome_head             = "Welcome"
+  welcome_word             = "~ Sow nothing, reap nothing ~"
+
+  latestpostscount         = 5                             # how many posts to display on the home page
+  bloggroupby              = 'month'
+  dateform                 = "Jan 2, 2006"
+  dateformfull             = "2006-01-02  Monday  15:04:05"
+  noshowreadtime           = false                         # if true, don't show "<x> minutes read" in posts
+
+  # slides
+  slidesDirPath            = "themes/PrimeNoir/static/img/header-slides"    # path to image in local dir (path for hugo)
+  slidesDirPathURL         = "img/header-slides"    # path to image in static dir (for static pages)
+
+  # highlighting
+  highlightjs              = true
+
+  # latex
+  katex                    = true
+
+  # links
+  email                    = "soulwhisper@outlook.com"
+  github                   = "https://github.com/soulwhisper"
+  linkedin                 = "https://www.linkedin.com/in/soulwhisper/"
+  # facebook                 = "//facebook.com/you"
+  # googleplus               = "//google.com/you"
+  # twitter                  = "//twitter.com/you"
+  # px500                    = "//px500"
+  # instagram                = "//instagram.com/you"
+
+  include_rss              = false                          # include RSS <link> tag in <head> and show RSS icon
+  # analytics
+  googleAnalytics          = "your-google-analytic-id"
