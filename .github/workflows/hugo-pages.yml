@@ -43,3 +43,4 @@ jobs:
           cname: blog.noirprime.com
           tag_name: ${{ steps.prepare_tag.outputs.deploy_tag_name }}
           tag_message: 'Deployment ${{ steps.prepare_tag.outputs.tag_name }}'
+          allow_empty_commit: true
