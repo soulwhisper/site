@@ -25,7 +25,7 @@ jobs:
           hugo-version: 'latest'
 
       - name: Build
-        run: hugo new site "blog"
+        run: cd hugo-dir && hugo new site "blog"
         
       - name: Prepare tag
         id: prepare_tag
@@ -39,7 +39,7 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public
+          publish_dir: ./hugo-dir/public
           cname: blog.noirprime.com
           tag_name: ${{ steps.prepare_tag.outputs.deploy_tag_name }}
           tag_message: 'Deployment ${{ steps.prepare_tag.outputs.tag_name }}'
