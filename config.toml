@@ -75,9 +75,6 @@ pygmentsuseclasses         = true
   slidesDirPath            = "themes/PrimeNoir/static/img/header-slides"    # path to image in local dir (path for hugo)
   slidesDirPathURL         = "img/header-slides"    # path to image in static dir (for static pages)
 
-  # highlighting
-  highlightjs              = true
-
   # latex
   katex                    = true
 
