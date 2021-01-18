@@ -28,6 +28,11 @@
   </url>
   
   <url>
+    <loc>https://NoirPrime.com/readme/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://NoirPrime.com/categories/</loc>
   </url>
   
